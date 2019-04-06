@@ -2,9 +2,9 @@ body {
     margin: 0;
     background-color:#ffffff;
     font-family: 'Roboto', sans-serif;
-  }
+}
   
-  #navbar {
+#navbar {
     background:#1c3d6c;	
     position: fixed;
     width: 100%;
@@ -18,44 +18,44 @@ body {
     border-right-style: none;
     border-top-style: none;
     border-bottom-style: solid;
-  }
+}
   
-  #navbar a {
+#navbar a {
     color: #ffffff;
     text-decoration: none;
     margin: auto;
     padding: 10px 5px;
     font-size: 24px;
     font-family: 'Roboto', sans-serif ;
-  }
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
     #navbar a {
-      font-weight: 600;
-      font-size: 18px;
-      font-family: 'Roboto', sans-serif ;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif ;
     }
-  }
-  #navbar a:hover {
+}
+#navbar a:hover {
     text-decoration: none;
     font-weight: 900;
     font-size: 24px;
     font-family: 'Roboto', sans-serif ;
-  }
+}
   
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #navbar a:hover {
       font-weight: 900;
     }
-  }
-  #spacer {
+}
+
+#spacer {
     height: 100px;
-  }
+}
   
-  
-  .project-wrap {
+.project-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
-    /* background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9); */
     background: #0064a4;
     border-top-color: #ffd200;
     border-top-style: solid;
@@ -65,24 +65,14 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #ffd200;
-  }
+}
   
-  .active, .collapsible:hover {
-    background-color:	#D3D3D3;
-  }
-
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    color: #ffffff;
-  }
-  
-  h1, h2, h3, h4, h5, h6, label {
+h1, h2, h3, h4, h5, h6, label {
     font-family: 'Roboto', sans-serif ;
     color: #ffffff !important;
-  }
-  @media only screen and (max-width: 768px) {
+}
+  
+@media only screen and (max-width: 768px) {
     h1 {
       font-size: 18px !important;
     }
@@ -107,31 +97,32 @@ body {
     #map {
       font-size: 24px !important;
     }
-  }
+}
   
-  p {
+p {
     color: #ffffff;
     font-weight: inherit;
     font-size: 20px;
     justify-self: center;
     text-indent: 50px;
-  }
-  @media only screen and (max-width: 768px) {
+}
+  
+@media only screen and (max-width: 768px) {
     p {
         font-size: 18px;
     }
-  }
+}
   
-  p a {
+p a {
     color: #E8E8E8;
     font-style: italic;
-  }
+}
   
-  p a:hover {
+p a:hover {
     color: #F5F5F5;
-  }
+}
   
-  #contact {
+#contact {
     padding-top: 10px;
     padding-bottom: 10px;
     background: #0064a4;
@@ -143,36 +134,36 @@ body {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #ffd200;
-  }
+}
   
-  #contact a  {
+#contact a  {
     font-size: 24px;
     font-weight: 700;
     color: #ffffff;
-  }
+}
   
-  #contact a:hover  {
+#contact a:hover  {
     font-size: 24px;
     font-weight: 900;
     color: #ffffff;
-  }
+}
   
-  
-  button {
+button {
     align-content: center;
     padding-right: 15px;
     padding-left: 15px;
-  }
-  .btn p {
+}
+
+.btn p {
     font-size: 20px;
     padding-top: 15px;
-  }
+}
   
-  .btn p:hover {
+.btn p:hover {
     color: #ffffff;
-  }
+}
   
-  footer {
+footer {
     background:#1c3d6c;
     width: 100%;
     display: block;
@@ -185,20 +176,20 @@ body {
     border-right-style: none;
     border-bottom-style: none;
     border-top-style: solid;
-  }
+}
   
-  footer a {
+footer a {
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
     margin: auto;
     padding: 10px 5px;
     font-size: 24px;
-  }
+}
   
-  footer a:hover {
+footer a:hover {
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
     font-size: 24px;
-  }
+}
