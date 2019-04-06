@@ -70,6 +70,9 @@ body {
 }
 
 /* Collapsible Cards */
+.card {
+    border-color: #ffd200 !important;
+}
 .card-header {
     background-color: #1c3d6c !important;
 }
