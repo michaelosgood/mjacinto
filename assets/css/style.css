@@ -72,6 +72,10 @@ body {
 .card-body {
     background: #0064a4;
 }
+
+.title {
+    font-size: 28px !important;
+}
   
 h1, h2, h3, h4, h5, h6, label {
     font-family: 'Roboto', sans-serif ;
