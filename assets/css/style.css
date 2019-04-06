@@ -55,7 +55,8 @@ body {
   .project-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
+    /* background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9); */
+    background: #A9A9A9;
     border-top-color: #333333;
     border-top-style: solid;
     border-top-width: 3px;
@@ -67,7 +68,8 @@ body {
   }
   
   .collapsible {
-    background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9);
+    /* background: linear-gradient(to bottom right, #C8C3C5, #A9A9A9); */
+    background: #A9A9A9;
     color: #ffffff;
     cursor: pointer;
     padding: 18px;
@@ -79,7 +81,7 @@ body {
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color:	#D3D3D3;
   }
   
   .content {
