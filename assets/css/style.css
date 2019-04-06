@@ -3,7 +3,8 @@ body {
     background-color:#ffffff;
     font-family: 'Roboto', sans-serif;
 }
-  
+
+/* Navbar */
 #navbar {
     background:#1c3d6c;	
     position: fixed;
@@ -52,7 +53,8 @@ body {
 #spacer {
     height: 100px;
 }
-  
+
+/* Project Wrapper */
 .project-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -66,17 +68,27 @@ body {
     border-bottom-width: 3px;
     border-bottom-color: #ffd200;
 }
+
+/* Collapsible Cards */
 .card-header {
     background-color: #1c3d6c !important;
+}
+.btn-link {
+    color: #ffffff !important;
+}
+.btn-link:hover {
+    font-weight: 600 !important;
 }
 .card-body {
     background: #0064a4;
 }
 
+/* Titles */
 .title {
     font-size: 28px !important;
 }
   
+ /* Overall Font Styling */
 h1, h2, h3, h4, h5, h6, label {
     font-family: 'Roboto', sans-serif ;
     color: #ffffff !important;
@@ -131,7 +143,8 @@ p a {
 p a:hover {
     color: #F5F5F5;
 }
-  
+
+/* Contact */
 #contact {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -172,7 +185,8 @@ button {
 .btn p:hover {
     color: #ffffff;
 }
-  
+
+/* Footer */
 footer {
     background:#1c3d6c;
     width: 100%;
