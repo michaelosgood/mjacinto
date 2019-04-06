@@ -66,6 +66,12 @@ body {
     border-bottom-width: 3px;
     border-bottom-color: #ffd200;
 }
+.card-header {
+    background-color: #1c3d6c !important;
+}
+.card-body {
+    background: #0064a4;
+}
   
 h1, h2, h3, h4, h5, h6, label {
     font-family: 'Roboto', sans-serif ;
