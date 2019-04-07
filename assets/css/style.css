@@ -76,6 +76,9 @@ body {
 .card-header {
     background-color: #1c3d6c !important;
 }
+.card-body {
+    color: #ffffff !important;
+}
 .btn-link {
     color: #ffffff !important;
 }
